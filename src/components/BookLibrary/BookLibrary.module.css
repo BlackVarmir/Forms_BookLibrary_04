@@ -1,0 +1,51 @@
+/* .library {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+.button {
+  padding: 10px;
+  font-size: 20px;
+  width: 330px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+}
+   */
+.library {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%; /* Кнопка занимает всю ширину колонки */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.fixedCol {
+  min-width: 400px !important;
+  max-width: 400px !important;
+  width: 400px;
+  align-items: center !important;
+  justify-content: center !important;
+
+}
+
+.listContainer {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
