@@ -53,31 +53,6 @@ const Modal = ({ onClose, addBook }) => {
   };
 
   return (
-    // <div className={styles.modalOverlay}>
-    //   <div className={styles.modalContent}>
-    //     <button className={styles.closeButton} onClick={onClose}>
-    //       ×
-    //     </button>
-    //     <form onSubmit={handleSubmit} className={styles.form}>
-    //       <input
-    //         type="text"
-    //         name="bookName"
-    //         value={bookName}
-    //         onChange={(e) => setBookName(e.target.value)}
-    //         placeholder="Назва книги"
-    //       />
-    //       <input
-    //         type="text"
-    //         name="bookAuthor"
-    //         value={bookAuthor}
-    //         onChange={(e) => setBookAuthor(e.target.value)}
-    //         placeholder="Автор"
-    //       />
-    //       <button type="submit">Додати книгу</button>
-    //     </form>
-    //     {error && <p className={styles.error}>{error}</p>}
-    //   </div>
-    // </div>
     <BootstrapModal show={true} onHide={onClose}>
       <BootstrapModal.Header closeButton>
         <BootstrapModal.Title>Додати нову книгу</BootstrapModal.Title>

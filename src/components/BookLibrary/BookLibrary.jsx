@@ -72,29 +72,6 @@ const BookLibrary = () => {
   };
 
   return (
-    // <div className={styles.flex}>
-    //   <div className={styles.library}>
-    //     <h1>Бібліотека книг</h1>
-    //     <button onClick={toggleModal} className={styles.button}>Додати книгу</button>
-    //     {showModal && (
-    //       <Modal onClose={toggleModal} addBook={addBook} />
-    //     )}
-    //     <br />
-    //     <input
-    //       type="text"
-    //       placeholder="Фільтрувати книги"
-    //       value={filter}
-    //       onChange={(e) => setFilter(e.target.value)}
-    //     />
-    //     <select value={sort} onChange={(e) => setSort(e.target.value)}>
-    //       <option value="title">Сортувати по назві</option>
-    //       <option value="author">Сортувати по автору</option>
-    //     </select>
-    //   </div>
-    //   <div className={styles.list}>
-    //     <BookList books={sortedBooks} deleteBook={deleteBook} />
-    //   </div>
-    // </div>
     <Container className={styles.library}>
       <Row style={{flexWrap: 'nowrap'}}>
         <Col md={4} /*{style={{ flex: '0 0 auto' }}}*/ className={styles.fixedCol}>
