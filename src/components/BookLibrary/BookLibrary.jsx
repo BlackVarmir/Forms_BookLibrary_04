@@ -74,7 +74,7 @@ const BookLibrary = () => {
   return (
     <Container className={styles.library}>
       <Row style={{flexWrap: 'nowrap'}}>
-        <Col md={4} /*{style={{ flex: '0 0 auto' }}}*/ className={styles.fixedCol}>
+        <Col md={4} className={styles.fixedCol}>
           <h1>Бібліотека книг</h1>
           <Button onClick={toggleModal} className={styles.button}>Додати книгу</Button>
           {showModal && (
